@@ -1,0 +1,14 @@
+# Auto detect text files
+* text=auto
+
+# Force LF for code files
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.js text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg binary
