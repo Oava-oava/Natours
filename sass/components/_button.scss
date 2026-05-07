@@ -26,7 +26,8 @@
       opacity: 0;
     }
   }
-  &:active, &:focus {
+  &:active,
+  &:focus {
     transform: translateY(-0.1rem);
     box-shadow: 0 5px 10px rgba($color-black, 0.2);
   }

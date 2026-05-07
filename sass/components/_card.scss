@@ -13,6 +13,7 @@
     left: 0;
     width: 100%;
     overflow: hidden;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
@@ -180,8 +181,8 @@
     font-weight: 100;
   }
 
-  // Making responsible
-  @include respond(tab-port) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+    // Making responsible
     height: auto;
     border-radius: 3px;
     background-color: $color-white;
